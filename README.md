@@ -2,19 +2,21 @@ key-value-server
 ================
 
 A single node key value server
-
-1.A single node key value server that maintains a map of student details with a chosen key by the user.
-2.Database 1.Rollono 2.Address 3.phone
+-------------------------
+-1.A single node key value server that maintains a map of student details with a chosen key by the user.
+-2.Database 1.Rollono 2.Address 3.phone
 
 Features:
-1.Implemented using ZEROMQ for communication between the clent and the server.
-2.Supports mutiple clients that can connect a central server which maintains a key-value database
-3.Used mutex based synchoronization for read-write access to the database.
+-------------------------------
+-1.Implemented using ZEROMQ for communication between the clent and the server.
+-2.Supports mutiple clients that can connect a central server which maintains a key-value database
+-3.Used mutex based synchoronization for read-write access to the database.
 
 Files include
-1.client.go
-2.server.go
-3.server_test.go
+----------------------------------------
+-1.client.go
+-2.server.go
+-3.server_test.go
 
 Usage:
 Uses ZEROMQ.install the zeromq 3.0
